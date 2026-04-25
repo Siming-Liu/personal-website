@@ -7,10 +7,10 @@
 
 
 .note {
-  color: gray;
+  color: #888;
   font-style: italic;
+  font-size: 0.95em;
 }
-
 .center-text {
   text-align: center;
 }
