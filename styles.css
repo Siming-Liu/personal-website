@@ -63,12 +63,16 @@ p {
 } */
 
 header {
-  background-image: url("header.jpg");
+  background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("header.jpg"); 
   background-size: cover;
   background-position: center;
-  color: rgb(255, 255, 255);
-  padding: 80px 0;
+  padding: 150px 0;
+  color: white;
+  text-align: center;
 }
+
 
 header h1 {
     font-size: 3rem;
