@@ -5,12 +5,14 @@
     box-sizing: border-box;
 }
 
-header {
-  background-image: url("header.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 80px 0;
+
+.note {
+  color: gray;
+  font-style: italic;
+}
+
+.center-text {
+  text-align: center;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
     color: #333;
     background-color: #f8f8f8;
 }
+
 
 
 .container {
@@ -52,11 +55,19 @@ p {
 }
 
 /* 头部样式 */
-header {
+/*header {
     background: linear-gradient(135deg, #ffffff, #110285);
     color: white;
     padding: 60px 0;
     text-align: center;
+} */
+
+header {
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 0;
 }
 
 header h1 {
