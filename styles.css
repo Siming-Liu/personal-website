@@ -265,13 +265,6 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
-.bib-key {
-    width: 40px;
-    flex-shrink: 0;
-    color: #2c3e50;
-    font-weight: bold;
-}
-
 .bib-content {
     flex: 1;
 }
